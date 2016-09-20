@@ -16,4 +16,14 @@ body {
     color: #90A4AE;
     padding: 40px;
     display: none;
+    text-decoration: none;
+    cursor: text;
+}
+
+#proj:visited, #proj:link {
+    color: #CFD8DC;
+}
+
+#proj:active {
+    color: #90A4AE;
 }
