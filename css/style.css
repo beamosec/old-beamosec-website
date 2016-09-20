@@ -1,0 +1,12 @@
+body {
+    background: #37474F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+h1 {
+    color: #CFD8DC;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
