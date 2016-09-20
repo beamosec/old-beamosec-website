@@ -1,12 +1,19 @@
 body {
+    font-family: 'Roboto', sans-serif;
     background: #37474F;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 30%;
 }
 
-h1 {
+#title {
+    padding: 5px;
     color: #CFD8DC;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+}
+
+#info {
+    color: #90A4AE;
+    padding: 50px;
+    display: none;
 }
