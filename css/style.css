@@ -16,12 +16,12 @@ body {
     color: #90A4AE;
     padding: 40px;
     display: none;
-    text-decoration: none;
-    cursor: text;
 }
 
-#proj:visited, #proj:link {
+#proj:visited,
+#proj:link {
     color: #CFD8DC;
+    text-decoration: none;
 }
 
 #proj:active {
