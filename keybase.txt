@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/beamosec
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://beamosec.github.io
+  * I am beamosec (https://keybase.io/beamosec) on keybase.
+  * I have a public key with fingerprint 629D 5AF6 10D9 CA3A 89B8  EAAB 7C73 F6F6 BD8B 0D8C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ddac0053dcf60549b0157505bf20b79a7159b2903779d6ca2ecae87113a5c9af0a",
+            "fingerprint": "629d5af610d9ca3a89b8eaab7c73f6f6bd8b0d8c",
+            "host": "keybase.io",
+            "key_id": "7c73f6f6bd8b0d8c",
+            "kid": "0101ddac0053dcf60549b0157505bf20b79a7159b2903779d6ca2ecae87113a5c9af0a",
+            "uid": "c3305595849f0c9589af706be0f1dc19",
+            "username": "beamosec"
+        },
+        "service": {
+            "hostname": "beamosec.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1474652360,
+    "expire_in": 157680000,
+    "prev": "d2eb977e18ddfaa53e23d23e503035039c1c2c284df03a09264118fc47a37813",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJbSFRBGMfXNKWFogvig7106qFotZkze24b3SCoKIoiqQdhm9vZPal7
+1nPOrollGVEKXUkhKiwKKoigzEoQKzVktaviQz5laShdqZcekmyO1Uv02DzMMN/3
+///m+z7m0czsQDArf9e8vC0r9FjW487mVGDH23imRiI2q5YiNVIZnzp4OeOuFy2z
+mBSRAASQMUwBUBCjpgqUsEEAVDQFKMSUAdEMrEHFILIBkKYZTKVY5hRzXYMQYYUa
+2ARYCkmmlYhxJ+lYCU9gVdlgCjZVCJhBMcK6QXSOMdGohkzVVAnTCWA6Fca47foO
+URzBLi+2bBETl+hUef/Q/+e6U1M4ihBQFEPRw4YJqDhFWgMq4cCEjELDF7rcSeAK
+LtSE4wrb5VTaF5JENG1R7g/W7+QvRXHM8uIp8qurpGN7NrXLRT7ueUk34vu96qRv
+qOIk+hsVJVaCiWkKR5o7rmUnpAgUSupZPhuGtbCqyEgFIYnvSVoOj1q+QtFUHYjl
+v8PTAslkTgxN41BnzMRYQVxGTEZcAQggsRkUUpnKepiZAGFgyGoYQt2kYQ0jTYdI
+8purTNiCLaAejgmma8US2Es5XNrX9bA0J5AVDOROn+Z/s0Bwxuw/n6+uM2+yfGLh
+6vaeiesD75ahodDLk3NeeZ+uHR1Dl1w6lF97cVo6VeDsXTlQ3Xr6wNWm461wyemi
+T+8PtCxu2nDu8JpGpTnnwcSR4Ud7pl+IdmxcXzNcsCr/85OOzPL6lpGRuv50a9/+
+b6NDlc93bMseL25aV+/MXlLpLBgvLRw7M+vemhdHBj63nZ23dPv366S6Y9O92McV
+8aH0m5u5i4r1TMMVXlBXhRvvFn35cGKyreP1+rGeG7cGDs4t3TsymNl8x2zdNr+k
+71mwdvnbwnDDzq2DtWsbjt9vvrz7VGNJV8WHp5dPgq9551ZvCnVa7+uz+kd/bD3f
+XTWRuR3tzh3vlRdOHuo91j7Gc34C3XlL5w==
+=LBXe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/beamosec
+
+==================================================================
