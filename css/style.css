@@ -7,7 +7,6 @@ body {
 }
 
 #title {
-    padding: 5px;
     color: #CFD8DC;
     text-align: center;
 }
@@ -16,6 +15,13 @@ body {
     color: #90A4AE;
     padding: 40px;
     display: none;
+}
+
+#links {
+    position: absolute;
+    padding-left: 110px;
+    display: none;
+    color: #90A4AE;
 }
 
 #proj:visited,
