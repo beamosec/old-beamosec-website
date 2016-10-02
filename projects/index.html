@@ -5,14 +5,29 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>beamosec - projects</title>
+    <title>beamosec\projects</title>
     <meta name="description" content="personal project page">
     <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#title").click(function () {
+                $("#info").slideDown("slow");
+            });
+        });
+    </script>
 </head>
-    
+
 <body>
-    
+
+    <div id="title">
+        <h1><a href="/index.html">\</a><a>projects</a></h1>
+    </div>
+
+    <div id="info">
+        <h3><a href="tint2rc.html">tint2rc configs</a></h3>
+    </div>
+
 </body>

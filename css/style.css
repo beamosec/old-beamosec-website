@@ -24,12 +24,23 @@ body {
     color: #90A4AE;
 }
 
-#proj:visited,
-#proj:link {
+a:visited,
+a:link {
     color: #CFD8DC;
     text-decoration: none;
 }
 
-#proj:active {
+a:active {
     color: #90A4AE;
 }
+
+#content {
+    color: #90A4AE;
+    text-align: center;
+    line-height: 10px;
+}
+
+h4.desc {
+    padding-top: 20px;
+}
+
