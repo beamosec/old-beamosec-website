@@ -11,27 +11,47 @@
 
 -->
 
-</--><html><head><meta http-equiv="Content-Type" content="text/html;">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;">
     <title>beamo</title>
-<link rel="stylesheet" href="money.css">
+    <link rel="stylesheet" href="money.css">
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script>
+        var mediaPlayer = document.getElementById('media')
+    
+        function playIt() {
+        mediaPlayer.play();
+            
+            var mediaStorage = [
+        'bgroup',
+        'startmeup',
+        'win8'
+    ], var mediaStorage = mediaStorage[Math.floor(Math.random() * mediaStorage.length)];
+            
+            mediaPlayer.src = "/xyz/media/" + mediaStorage + ".mp4";
+        }
+            mediaPlayer.addEventListener('ended', playIt, false);
+            playIt();
+        }
+    </script>
 </head>
+
 <body>
 
-<div width="520">
-    <marquee id="scrollText" behavior="scroll" direction="left">beamo.xyz has moved to beamo.me</marquee>
-        
-        
-<video loop="" autoplay="" id="bgvid">
-	<source src="watch.mp4" type="video/mp4">
-		</video>
-
-		<br><br><br><br>
+    <div width="520">
+        <marquee id="scrollText" behavior="scroll" direction="left">beamo.xyz has moved to beamo.me</marquee>
 
 
-</div>
-    </body>
-    </html>
+        <video loop="" autoplay="" id="media">
+            <source src="" type="video/mp4">
+        </video>
+
+
+    </div>
+</body>
+
+</html>
