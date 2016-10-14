@@ -1,10 +1,10 @@
 # beamosec.github.io
 
- hello there.
+hello there.
 
- this is the repo for my website, which is conveniently hosted with github
+this is the repo for my website, which is conveniently hosted with github
 
- my projects are listed under this site, and contain links to their individual repositories
+my projects are listed under this site, and contain links to their individual repositories
 
 
- also beamo.me
+also beamo.me
