@@ -22,20 +22,21 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script>
         var mediaPlayer = document.getElementById('media')
-    
+
         function playIt() {
-        mediaPlayer.play();
-            
+            mediaPlayer.play();
+
             var mediaStorage = [
         'bgroup',
         'startmeup',
         'win8'
-    ], var mediaStorage = mediaStorage[Math.floor(Math.random() * mediaStorage.length)];
-            
+    ],
+                var mediaStorage = mediaStorage[Math.floor(Math.random() * mediaStorage.length)];
+
             mediaPlayer.src = "/xyz/media/" + mediaStorage + ".mp4";
         }
-            mediaPlayer.addEventListener('ended', playIt, false);
-            playIt();
+        mediaPlayer.addEventListener('ended', playIt, false);
+        playIt();
         }
     </script>
 </head>
