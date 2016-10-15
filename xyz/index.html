@@ -21,23 +21,25 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script>
-        var mediaPlayer = document.getElementById('media')
+        var videoPlayer = document.getElementById('video');
 
-        function playIt() {
-            mediaPlayer.play();
+        videoPlayer.addEventListener('ended', function () {
 
-            var mediaStorage = [
-        'bgroup',
-        'startmeup',
-        'win8'
-    ],
-                var mediaStorage = mediaStorage[Math.floor(Math.random() * mediaStorage.length)];
+            this.pause();
 
-            mediaPlayer.src = "/xyz/media/" + mediaStorage + ".mp4";
-        }
-        mediaPlayer.addEventListener('ended', playIt, false);
-        playIt();
-        }
+            var videosList = ["bgroup", "startmeup", "win8"],
+                videoPlay = videosList[Math.floor(Math.random() * videosList.length)];
+
+            $("#mp4").attr("src", "/xyz/media/" + videoPlay + ".mp4");
+            $("#ogg").attr("src", "/xyz/media/" + videoPlay + ".webm");
+            $("#webm").attr("src", "/xyz/media/" + videoPlay + ".ogg");
+
+            this.load();
+            this.play();
+
+        }, false);
+
+        videoPlayer.play();
     </script>
 </head>
 
@@ -46,13 +48,17 @@
     <div width="520">
         <marquee id="scrollText" behavior="scroll" direction="left">beamo.xyz has moved to beamo.me</marquee>
 
-
-        <video loop="" autoplay="" id="media">
-            <source src="" type="video/mp4">
-        </video>
-
-
     </div>
+
+    <video id="video" autobuffer autoplay preload="auto">
+    <source id="mp4"  src="/xyz/media/win8.mp4"  type="video/mp4" /> <!-- Safari / iOS video -->
+	<source id="ogg"  src="/xyz/media/win8.mp4"  type="video/ogg" /> <!-- Firefox / Opera -->
+	<source id="webm" src="/xyz/media/win8.mp4" type="video/webm" /> <!-- Chrome -->     
+    Your browser does not support html5 video.
+</video>
+
+
+
 </body>
 
 </html>
