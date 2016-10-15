@@ -20,6 +20,7 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
         var videoPlayer = document.getElementById('video');
 
@@ -27,7 +28,7 @@
 
             this.pause();
 
-            var videosList = ["bgroup", "startmeup", "win8"],
+            var videosList = ["1", "2", "3"],
                 videoPlay = videosList[Math.floor(Math.random() * videosList.length)];
 
             $("#mp4").attr("src", "/xyz/media/" + videoPlay + ".mp4");
@@ -51,9 +52,9 @@
     </div>
 
     <video id="video" autobuffer autoplay preload="auto">
-    <source id="mp4"  src="/xyz/media/win8.mp4"  type="video/mp4" /> <!-- Safari / iOS video -->
-	<source id="ogg"  src="/xyz/media/win8.mp4"  type="video/ogg" /> <!-- Firefox / Opera -->
-	<source id="webm" src="/xyz/media/win8.mp4" type="video/webm" /> <!-- Chrome -->     
+    <source id="mp4"  src="/xyz/media/1.mp4"  type="video/mp4" /> <!-- Safari / iOS video -->
+	<source id="ogg"  src="/xyz/media/2.mp4"  type="video/ogg" /> <!-- Firefox / Opera -->
+	<source id="webm" src="/xyz/media/3.mp4" type="video/webm" /> <!-- Chrome -->     
     Your browser does not support html5 video.
 </video>
 
