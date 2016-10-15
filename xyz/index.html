@@ -1,3 +1,8 @@
+<?php
+$files = scandir ("/xyz/media.");
+$randomFile = $files[array_rand($files)];
+?>
+
 <!-- yo fuck isis they killed biggie
 
  _______  _______  _______  __   __  _______ 
@@ -31,7 +36,7 @@
             var videosList = ["1", "2", "3"],
                 videoPlay = videosList[Math.floor(Math.random() * videosList.length)];
 
-            $("#mp4").attr("src", "/xyz/media/" + videoPlay + ".mp4");
+            $("#mp4").attr("src", "/xyz/media/" + <?php echo $randomfile ?> + ".mp4");
             $("#ogg").attr("src", "/xyz/media/" + videoPlay + ".webm");
             $("#webm").attr("src", "/xyz/media/" + videoPlay + ".ogg");
 
